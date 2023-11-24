@@ -10,19 +10,13 @@
 	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
-
-	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
-	</organization>
-
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.16.138.163:9000/</sonar.host.url>
-		<sonar.login>squ_27c88a6fd89a34e348a96b1ddca6294f60ebc149</sonar.login>
+		<sonar.host.url>http://3.138.125.77:9092/</sonar.host.url>
+		<sonar.login>sqa_c0970cfdf6bafca83772bb1d4616e2fd9224bd5b</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -96,8 +90,8 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Java-webapp</name>
-	      <url>http://3.145.131.198:9090/repository/Java-webapp/</url>
+	      <name>Maven-webapp</name>
+	      <url>http://3.138.125.77:9091/repository/Maven-webapp/</url>
 	    </repository>
 	    
 	  <!--  <snapshotRepository>
@@ -109,7 +103,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-application</finalName>
+		<finalName>webapp-resume</finalName>
 		
 		<plugins>
 			<plugin>
