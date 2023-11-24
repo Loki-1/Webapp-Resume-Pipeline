@@ -2,7 +2,7 @@
 FROM tomcat:latest
 
 # Copy the webapp.war file into the webapps directory of Tomcat
-COPY /var/lib/jenkins/workspace/Maven-webapp-resume/target/webapp-resume.war /usr/local/tomcat/webapps/
+COPY Maven-webapp-resume/target/webapp-resume.war /usr/local/tomcat/webapps/
 
 # Expose the default Tomcat port
 EXPOSE 9093
