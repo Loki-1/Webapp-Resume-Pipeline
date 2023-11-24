@@ -3,7 +3,10 @@ FROM tomcat:latest
 
 # Copy the webapp.war file into the webapps directory of Tomcat
 COPY target/webapp-resume.war /usr/local/tomcat/webapps/
-
+WORKDIR /usr/local/tomcat/conf
+RUN rm tomcat-user.xml
+COPY tomcat-users.xml .
+WORKDIR /usr/local/tomcat
 
 # Expose the default Tomcat port
 EXPOSE 9093
