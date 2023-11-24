@@ -21,12 +21,12 @@ RUN yum install wget -y
 RUN yum install unzip -y
 RUN mkdir /opt/tomcat/
 WORKDIR /opt/tomcat
-RUN wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.82/bin/apache-tomcat-9.0.82.zip
-RUN unzip apache-tomcat-9.0.82.zip
-RUN cd /opt/tomcat/apache-tomcat-9.0.82/bin
+RUN wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.83/bin/apache-tomcat-9.0.83.zip
+RUN unzip apache-tomcat-9.0.83.zip
+RUN cd /opt/tomcat/apache-tomcat-9.0.83/bin
 RUN yum -y install java
 RUN java -version
-RUN chmod u+x apache-tomcat-9.0.82/bin/*.sh
-COPY target/webapp-resume.war /opt/tomcat/apache-tomcat-9.0.82/webapps/
-CMD ["/opt/tomcat/apache-tomcat-9.0.82/bin/catalina.sh", "run"]
+RUN chmod u+x apache-tomcat-9.0.83/bin/*.sh
+COPY target/webapp-resume.war /opt/tomcat/apache-tomcat-9.0.83/webapps/
+CMD ["/opt/tomcat/apache-tomcat-9.0.83/bin/catalina.sh", "run"]
 ExPOSE 9093
