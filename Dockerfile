@@ -2,10 +2,10 @@
 FROM tomcat:latest
 
 # Copy the webapp.war file into the webapps directory of Tomcat
-COPY webapp-resume.war /usr/local/tomcat/webapps/
+COPY /var/lib/jenkins/workspace/Maven-webapp-resume/target/webapp-resume.war /usr/local/tomcat/webapps/
 
 # Expose the default Tomcat port
-EXPOSE 8080
+EXPOSE 9093
 
 # Start Tomcat when the container starts
 CMD ["catalina.sh", "run"]
