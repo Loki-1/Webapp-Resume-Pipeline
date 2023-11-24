@@ -10,4 +10,4 @@ WORKDIR /usr/local/tomcat
 EXPOSE 9093
 
 # Start Tomcat when the container starts
-CMD ["/bin/catalina.sh", "run"]
+CMD ["bin/catalina.sh", "run"]
