@@ -31,10 +31,8 @@ RUN rm /opt/tomcat/apache-tomcat-9.0.83/conf/tomcat-users.xml
 COPY tomcat-users.xml /opt/tomcat/apache-tomcat-9.0.83/conf/
 COPY target/webapp-resume.war /opt/tomcat/apache-tomcat-9.0.83/webapps/
 COPY tomcat-users.xml /usr/local/tomcat/conf/
-RUN sed -i '/<<Valve className="org.apache.catalina.valves.RemoteAddrValve"
-allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />>/s/^/<!-- /' /opt/tomcat/apache-tomcat-9.0.83/webapps/manager/META-INF/context.xml && \
-    sed -i '/<\/<Valve className="org.apache.catalina.valves.RemoteAddrValve"
-allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />>/s/$/ -->/' /opt/tomcat/apache-tomcat-9.0.83/webapps/manager/META-INF/context.xml
+RUN sed -i '/<Valve className="org.apache.catalina.valves.RemoteAddrValve"/s/^/<!-- /' /opt/tomcat/apache-tomcat-9.0.83/webapps/manager/META-INF/context.xml && \
+    sed -i '/allow="127\\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1"/s/$/ -->/' /opt/tomcat/apache-tomcat-9.0.83/webapps/manager/META-INF/context.xml
 RUN /opt/tomcat/apache-tomcat-9.0.83/bin/shutdown.sh && sleep 5 && /opt/tomcat/apache-tomcat-9.0.83/bin/startup.sh
 CMD ["/opt/tomcat/apache-tomcat-9.0.83/bin/catalina.sh", "run"]
 ExPOSE 9093
