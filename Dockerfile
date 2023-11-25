@@ -27,9 +27,9 @@ RUN cd /opt/tomcat/apache-tomcat-9.0.83/bin
 RUN yum -y install java
 RUN java -version
 RUN chmod u+x apache-tomcat-9.0.83/bin/*.sh
-#RUN rm /opt/tomcat/apache-tomcat-9.0.83/conf/tomcat-users.xml
-#COPY tomcat-users.xml /opt/tomcat/apache-tomcat-9.0.83/conf/
+RUN rm /opt/tomcat/apache-tomcat-9.0.83/conf/tomcat-users.xml
+COPY tomcat-users.xml /opt/tomcat/apache-tomcat-9.0.83/conf/
 COPY target/webapp-resume.war /opt/tomcat/apache-tomcat-9.0.83/webapps/
-RUN ./bin/shutdown.sh && sleep 5 && ./bin/startup.sh
+RUN /opt/tomcat/apache-tomcat-9.0.83/bin/shutdown.sh && sleep 5 && /opt/tomcat/apache-tomcat-9.0.83/bin/startup.sh
 CMD ["/opt/tomcat/apache-tomcat-9.0.83/bin/catalina.sh", "run"]
 ExPOSE 9093
