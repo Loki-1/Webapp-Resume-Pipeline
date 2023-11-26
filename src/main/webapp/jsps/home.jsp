@@ -146,6 +146,7 @@ h1 {
                 <div class="header">
                     <div class="name">Lokesh Naagam</div>
                     <hr>
+                    <div class="section-title">Contact Information:</div>
                     <div class="contact"><b>Email:</b> lokesh.naagam@email.com | <b>Phone:</b> (+91)9493079164 | <b>LinkinedIn :</b> linkedin.com/in/lokesh-naagam
                     </div>
                 </div>
@@ -178,6 +179,9 @@ h1 {
                     
                     </div>
                 </div>
+                    <hr>
+                    <p> <b>Github Details :</b> <a href="https://github.com/Loki-1"> My Github Link </p>
+
                     <hr>
                     <div class="section-title">Skills</div>
                     <div class="section-content">
