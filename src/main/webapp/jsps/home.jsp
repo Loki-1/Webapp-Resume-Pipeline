@@ -35,7 +35,10 @@ background-size:100% 100%;
 </head>
 
 <body>
-
+h1, h2 {
+            text-align: center;
+            
+        }
 <section>
     <h1>Welcome to My DevOps Journey!</h1>
     <p>Hello, I'm Lokesh Nagam, a passionate DevOps professional. This webpage serves as a showcase of my skills and experiences in the world of DevOps.</p>
