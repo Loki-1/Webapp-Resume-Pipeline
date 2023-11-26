@@ -36,8 +36,32 @@ background-size:100% 100%;
 
 <body>
 
-<h1 align="center">Welcome to my own webpage.</h1>
-<h1 align="center"> This is Lokesh Nagam - I am creating this webpage as a DevOps Project and here I am adding my resume</h1>
+<section>
+    <h1>Welcome to My DevOps Journey!</h1>
+    <p>Hello, I'm Lokesh Nagam, a passionate DevOps professional. This webpage serves as a showcase of my skills and experiences in the world of DevOps.</p>
+    <p>As part of a hands-on DevOps project, I'm not only creating this webpage but also incorporating my resume to provide a comprehensive view of my capabilities.</p>
+</section>
+
+<!-- Resume Section -->
+<section>
+    <h2>About Me</h2>
+    <p>With a strong background in DevOps practices, I thrive on solving complex challenges and contributing to the success of projects through the effective application of DevOps principles.</p>
+    <p>This webpage is a reflection of my commitment to showcasing my expertise and sharing my journey in the exciting field of DevOps.</p>
+</section>
+
+<!-- Contact Information Section -->
+<section>
+    <h2>Contact Information</h2>
+    <p>Feel free to reach out and connect! I'd love to discuss DevOps, technology, and everything in between.</p>
+    <p>Email: your.email@example.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank" rel="noopener noreferrer">Your LinkedIn Profile</a></p>
+</section>
+<a href="https://github.com/Loki-1" target="_blank" rel="noopener noreferrer">
+    <button class="github-button">Visit My GitHub Profile</button>
+</a>
+<a href="https://github.com/Loki-1" target="_blank" rel="noopener noreferrer">
+    <button class="github-button">Visit My GitHub Profile</button>
+</a>
 <a href="https://github.com/Loki-1" target="_blank" rel="noopener noreferrer">
     <button class="github-button">Visit My GitHub Profile</button>
 </a>
