@@ -69,6 +69,7 @@ h1 {
 </section>
 <hr>
 <br>
+<h2> "Explore my online presence by clicking on the buttons below to visit my various profiles. Dive into a world of connections and discover more about who I am. Let the journey begin!" </h2>
 <a href="https://github.com/Loki-1" target="_blank" rel="noopener noreferrer">
     <button class="github-button">Visit My GitHub Profile</button>
 </a>
@@ -78,7 +79,6 @@ h1 {
 <a href="https://github.com/Loki-1" target="_blank" rel="noopener noreferrer">
     <button class="github-button">Visit My GitHub Profile</button>
 </a>
-<p> Github Details : <a href="https://github.com/Loki-1"> My Github Link </a></p>
 <hr>
 <br>
         <h1><h3> My Resume :</h3><br>
