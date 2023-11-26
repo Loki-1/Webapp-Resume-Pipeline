@@ -31,14 +31,14 @@ background-size:100% 100%;
         .github-button:hover {
             background-color: #0056b3; /* Darker GitHub color on hover */
         }
+h1, h2 {
+            text-align: center;
+            color: #333;
+        }
     </style>
 </head>
 
 <body>
-h1, h2 {
-            text-align: center;
-            
-        }
 <section>
     <h1>Welcome to My DevOps Journey!</h1>
     <p>Hello, I'm Lokesh Nagam, a passionate DevOps professional. This webpage serves as a showcase of my skills and experiences in the world of DevOps.</p>
@@ -56,9 +56,10 @@ h1, h2 {
 <section>
     <h2>Contact Information</h2>
     <p>Feel free to reach out and connect! I'd love to discuss DevOps, technology, and everything in between.</p>
-    <p>Email: your.email@example.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank" rel="noopener noreferrer">Your LinkedIn Profile</a></p>
+    <p>Email: lokesh.naagam@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/lokesh-naagam/" target="_blank" rel="noopener noreferrer">Your LinkedIn Profile</a></p>
 </section>
+<br>
 <a href="https://github.com/Loki-1" target="_blank" rel="noopener noreferrer">
     <button class="github-button">Visit My GitHub Profile</button>
 </a>
