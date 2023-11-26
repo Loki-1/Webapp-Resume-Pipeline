@@ -12,13 +12,35 @@ background-size:100% 100%;
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Lokesh-Nagam-Profile</title>
 <link href="images/LN logo.jpg" rel="icon">
-</head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile</title>
+    <style>
+        /* Style for the button */
+        .github-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #0366d6; /* GitHub color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Hover effect */
+        .github-button:hover {
+            background-color: #0056b3; /* Darker GitHub color on hover */
+        }
+    </style>
 </head>
 
 <body>
 
 <h1 align="center">Welcome to my own webpage.</h1>
 <h1 align="center"> This is Lokesh Nagam - I am creating this webpage as a DevOps Project and here I am adding my resume</h1>
+<a href="https://github.com/Loki-1" target="_blank" rel="noopener noreferrer">
+    <button class="github-button">Visit My GitHub Profile</button>
+</a>
 <p> Github Details : <a href="https://github.com/Loki-1"> My Github Link </a></p>
 <hr>
 <br>
