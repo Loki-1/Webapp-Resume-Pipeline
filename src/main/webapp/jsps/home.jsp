@@ -180,7 +180,7 @@ h1 {
                     </div>
                 </div>
                     <hr>
-                    <p> <b>Github Details :</b> <a href="https://github.com/Loki-1"> My Github Link </p>
+                    <p> <b>Github Details :</b> <a href="https://github.com/Loki-1"> My Github Link </a></p>
 
                     <hr>
                     <div class="section-title">Skills</div>
@@ -214,7 +214,17 @@ h1 {
                     </ul>
                     </div>
 <hr>
-                    <p> Github Details : <a href="https://github.com/Loki-1"> My Github Link </p>
+ <div class="section-title">My personal Projects :</div>
+                    <div class="section-content">
+                    <ul>
+                        <li><b>Project name :</b> Microservice registry</li>
+                        <li><b>Description :</b> Implemented CI/CD pipelines using Jenkins for Microservices architecture and deployed
+successfully by using Docker container.</li>
+                        <li><b>Technologies used :</b> AWS, GitHub, Maven, Jenkins, Docker , Sonarqube, Nexus</li>
+                        <li><b>Result:</b> Application deployed successfully and Reduced deployment time by 30%</li>
+                        <li><b>Github Link :</b> <a href="https://github.com/Loki-1/microservice_v1_service_registry"> Microservice-Pipeline </a></li>
+                    </ul>
+                    </div>                   
 
 <hr>
 <div style="text-align: center;">
