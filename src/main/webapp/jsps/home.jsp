@@ -65,7 +65,7 @@ h1 {
     <h2>Contact Information</h2>
     <p>Feel free to reach out and connect! I'd love to discuss DevOps, technology, and everything in between.</p>
     <p><b>Email:</b> lokesh.naagam@gmail.com</p>
-    <p><b>LinkedIn:</b><a href="https://www.linkedin.com/in/lokesh-naagam/" target="_blank" rel="noopener noreferrer">Your LinkedIn Profile</a></p>
+    <p><b>Phone_NUM:</b> +91 9493079164</p>
 </section>
 <hr>
 <br>
@@ -73,11 +73,11 @@ h1 {
 <a href="https://github.com/Loki-1" target="_blank" rel="noopener noreferrer">
     <button class="github-button">Visit My GitHub Profile</button>
 </a>
-<a href="https://github.com/Loki-1" target="_blank" rel="noopener noreferrer">
-    <button class="github-button">Visit My GitHub Profile</button>
+<a href="https://www.linkedin.com/in/lokesh-naagam/" target="_blank" rel="noopener noreferrer">
+    <button class="github-button">Visit My Linked_in Profile</button>
 </a>
-<a href="https://github.com/Loki-1" target="_blank" rel="noopener noreferrer">
-    <button class="github-button">Visit My GitHub Profile</button>
+<a href="https://hub.docker.com/u/lokeshnagam121" target="_blank" rel="noopener noreferrer">
+    <button class="github-button">Visit My Dockerhub Profile</button>
 </a>
 <hr>
 <br>
