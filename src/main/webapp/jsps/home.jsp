@@ -64,8 +64,8 @@ h1 {
 <section>
     <h2>Contact Information</h2>
     <p>Feel free to reach out and connect! I'd love to discuss DevOps, technology, and everything in between.</p>
-    <p>Email: lokesh.naagam@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/lokesh-naagam/" target="_blank" rel="noopener noreferrer">Your LinkedIn Profile</a></p>
+    <p><b>Email:</b> lokesh.naagam@gmail.com</p>
+    <p><b>LinkedIn:</b><a href="https://www.linkedin.com/in/lokesh-naagam/" target="_blank" rel="noopener noreferrer">Your LinkedIn Profile</a></p>
 </section>
 <hr>
 <br>
