@@ -15,10 +15,10 @@ Embark on establishing an efficient Continuous Integration and Deployment (CI/CD
 
 ## Pipeline Stages:
 
-1. Code Checkout from GitHub (Stage 1):
+### 1. Code Checkout from GitHub (Stage 1):
 Automate code retrieval from GitHub, ensuring a continuous integration process with an up-to-date codebase.
 
-2. Maven Package Build (Stage 2):
+### 2. Maven Package Build (Stage 2):
 Configure Maven to build the Java web app, managing dependencies, and compiling source code.
 
 3. Code Quality Scan with SonarQube (Stage 3):
