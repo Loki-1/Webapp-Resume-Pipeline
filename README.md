@@ -21,13 +21,13 @@ Automate code retrieval from GitHub, ensuring a continuous integration process w
 ### 2. Maven Package Build (Stage 2):
 Configure Maven to build the Java web app, managing dependencies, and compiling source code.
 
-3. Code Quality Scan with SonarQube (Stage 3):
+### 3. Code Quality Scan with SonarQube (Stage 3):
 Integrate SonarQube for static code analysis, evaluating quality against standards and identifying issues early.
 
-4. Artifacts Upload to Nexus (Stage 4):
+### 4. Artifacts Upload to Nexus (Stage 4):
 Automate artifact upload to a Nexus repository for centralized and versioned management.
 
-5. Docker Image Build (Stage 5):
+### 5. Docker Image Build (Stage 5):
 Implement Docker image creation for consistent and reproducible packaging.
 
 6. Docker Image Push to Docker Hub (Stage 6):
