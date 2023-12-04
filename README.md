@@ -40,7 +40,9 @@ Automate deployment of the Java web app as a Docker container, utilizing a Tomca
 
 #### Efficiency: Streamlined CI/CD accelerates the development lifecycle.
 #### Quality Assurance: SonarQube enhances code quality and adherence to standards.
-Artifact Management: Nexus simplifies versioning and management for enhanced traceability.
-Containerization: Docker ensures consistent and portable deployments.
-Collaboration: Integration with GitHub fosters collaborative development.
-Skills: Tomcat · Sonarqube · Nexus · Maven · Docker · Jenkins · Amazon Web Services (AWS)
+#### Artifact Management: Nexus simplifies versioning and management for enhanced traceability.
+#### Containerization: Docker ensures consistent and portable deployments.
+#### Collaboration: Integration with GitHub fosters collaborative development.
+
+## Skills: 
+Tomcat · Sonarqube · Nexus · Maven · Docker · Jenkins · Amazon Web Services (AWS)
