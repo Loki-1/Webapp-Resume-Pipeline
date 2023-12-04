@@ -10,10 +10,10 @@ In our repository, we've successfully developed a basic Java web app. We can gen
 ![image](https://github.com/Loki-1/webapp-resume/assets/134843197/47666a25-4a3b-4acd-8059-b4ce34826dae)
 ![image](https://github.com/Loki-1/webapp-resume/assets/134843197/71b772ae-7bef-4479-9936-65152543f992)
 
-Project Overview:
+## Project Overview:
 Embark on establishing an efficient Continuous Integration and Deployment (CI/CD) pipeline tailored for Java web applications. This project focuses on optimizing the development lifecycle, ensuring code quality, and simplifying deployment. The pipeline comprises seven stages, ensuring the reliability and efficiency of the entire process.
 
-Pipeline Stages:
+## Pipeline Stages:
 
 1. Code Checkout from GitHub (Stage 1):
 Automate code retrieval from GitHub, ensuring a continuous integration process with an up-to-date codebase.
