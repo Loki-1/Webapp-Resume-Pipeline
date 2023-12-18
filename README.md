@@ -1,4 +1,4 @@
-# Streamlined CI/CD Pipeline for Java Web Apps
+# Streamlined CI/CD Pipeline for Java Web Apps.
 
 In our repository, we've successfully developed a basic Java web app. We can generate a .war package from the code and deploy it on a Tomcat server. Additionally, we've implemented SonarQube to generate detailed code quality reports. To enhance our development process, we can consider organizing the project structure more effectively, using build automation tools like Maven or Gradle, implementing continuous integration with Jenkins . Containerization using Docker and orchestration with Kubernetes can simplify deployment and management.
 
