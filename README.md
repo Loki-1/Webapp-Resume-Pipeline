@@ -1,6 +1,6 @@
 # Streamlined CI/CD Pipeline for Java Web Apps.
 
-In our repository, we've successfully developed a basic Java web app. We can generate a .war package from the code and deploy it on a Tomcat server. Additionally, we've implemented SonarQube to generate detailed code quality reports. To enhance our development process, we can consider organizing the project structure more effectively, using build automation tools like Maven or Gradle, implementing continuous integration with Jenkins . Containerization using Docker and orchestration with Kubernetes can simplify deployment and management.
+In our repository, we've successfully developed a basic Java web app. We can generate a .war package from the code and deploy it on a Tomcat server. Additionally, we've implemented SonarQube to generate detailed code quality reports. To enhance our development process, we can consider organizing the project structure more effectively, using build automation tools like Maven or Gradle, implementing continuous integration with Jenkins . Containerization using Docker and orchestration with Kubernetes can simplify deployment and management..
 
 ![image](https://github.com/Loki-1/webapp-resume/assets/134843197/f570ebf0-6d1e-408a-a56b-4f63577f3f3c)
 
