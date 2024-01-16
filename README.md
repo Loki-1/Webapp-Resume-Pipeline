@@ -13,15 +13,15 @@ In our repository, we've successfully developed a basic Java web app. We can gen
 ## Project Overview:
 Embark on establishing an efficient Continuous Integration and Deployment (CI/CD) pipeline tailored for Java web applications. This project focuses on optimizing the development lifecycle, ensuring code quality, and simplifying deployment. The pipeline comprises seven stages, ensuring the reliability and efficiency of the entire process.
 
-## Pipeline Stages:
+## Pipeline Stages:-
 
-### 1. Code Checkout from GitHub (Stage 1):
+### 1. Code Checkout from GitHub (Stage 1):-
 Automate code retrieval from GitHub, ensuring a continuous integration process with an up-to-date codebase.
 
-### 2. Maven Package Build (Stage 2):
+### 2. Maven Package Build (Stage 2):-
 Configure Maven to build the Java web app, managing dependencies, and compiling source code.
 
-### 3. Code Quality Scan with SonarQube (Stage 3):
+### 3. Code Quality Scan with SonarQube (Stage 3):-
 Integrate SonarQube for static code analysis, evaluating quality against standards and identifying issues early.
 
 ### 4. Artifacts Upload to Nexus (Stage 4):
