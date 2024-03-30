@@ -93,7 +93,7 @@ h1 {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-image:url('images/resume.jpg');
+            background-image:url('images/resumebg.jpg');
             background-size:100% 100%;
         }
 
@@ -229,7 +229,7 @@ successfully by using Docker container.</li>
 <hr>
 <div style="text-align: center;">
         <span>
-                <img src="images/LN logo.jpg" alt="" width="100">
+                <img src="images/logo1.jpg" alt="" width="100">
         </span>
         <span style="font-weight: bold;">
                 Lokesh Naagam, 
