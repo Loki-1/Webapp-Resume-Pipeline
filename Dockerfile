@@ -48,7 +48,6 @@ RUN sudo tee /opt/tomcat/apache-tomcat-9.0.87/conf/tomcat-users.xml <<EOF
 </tomcat-users>
 EOF
 COPY target/webapp-resume.war /opt/tomcat/apache-tomcat-9.0.87/webapps/
-COPY tomcat-users.xml /usr/local/tomcat/conf/
 RUN sed -i '/<Valve className="org.apache.catalina.valves.RemoteAddrValve"/s/^/<!-- /' /opt/tomcat/apache-tomcat-9.0.87/webapps/manager/META-INF/context.xml && \
     sed -i '/allow="127\\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1"/s/$/ -->/' /opt/tomcat/apache-tomcat-9.0.87/webapps/manager/META-INF/context.xml
 RUN /opt/tomcat/apache-tomcat-9.0.87/bin/shutdown.sh && sleep 5 && /opt/tomcat/apache-tomcat-9.0.87/bin/startup.sh
