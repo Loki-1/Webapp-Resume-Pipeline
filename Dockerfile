@@ -64,6 +64,8 @@ RUN tee /opt/tomcat/apache-tomcat-9.0.87/webapps/manager/META-INF/context.xml <<
            allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
 </Context>
 EOF
+RUN chmod 777 /opt/tomcat/apache-tomcat-9.0.87/conf/context.xml
+RUN chmod 777 /opt/tomcat/apache-tomcat-9.0.87/webapps/manager/META-INF/context.xml
 RUN /opt/tomcat/apache-tomcat-9.0.87/bin/shutdown.sh && sleep 5 && /opt/tomcat/apache-tomcat-9.0.87/bin/startup.sh
 CMD ["/opt/tomcat/apache-tomcat-9.0.87/bin/catalina.sh", "run"]
 ExPOSE 9093
