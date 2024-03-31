@@ -28,7 +28,7 @@ RUN yum -y install java
 RUN java -version
 RUN chmod u+x apache-tomcat-9.0.87/bin/*.sh
 RUN rm /opt/tomcat/apache-tomcat-9.0.87/conf/tomcat-users.xml
-RUN sudo tee /opt/tomcat/apache-tomcat-9.0.87/conf/tomcat-users.xml <<EOF
+RUN tee /opt/tomcat/apache-tomcat-9.0.87/conf/tomcat-users.xml <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <tomcat-users xmlns="http://tomcat.apache.org/xml"
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
