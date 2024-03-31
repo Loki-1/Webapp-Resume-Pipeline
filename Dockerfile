@@ -51,7 +51,15 @@ EOF
 COPY target/webapp-resume.war /opt/tomcat/apache-tomcat-9.0.87/webapps/
 RUN tee /opt/tomcat/apache-tomcat-9.0.87/conf/context.xml <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
-<Context>
+<Context antiResourceLocking="false" privileged="true" >
+    <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+           allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
+</Context>
+EOF
+RUN rm /opt/tomcat/apache-tomcat-9.0.87/webapps/manager/META-INF/context.xml
+RUN tee /opt/tomcat/apache-tomcat-9.0.87/webapps/manager/META-INF/context.xml <<EOF
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiResourceLocking="false" privileged="true" >
     <Valve className="org.apache.catalina.valves.RemoteAddrValve"
            allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
 </Context>
