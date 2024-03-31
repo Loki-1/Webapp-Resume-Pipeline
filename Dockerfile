@@ -28,7 +28,25 @@ RUN yum -y install java
 RUN java -version
 RUN chmod u+x apache-tomcat-9.0.87/bin/*.sh
 RUN rm /opt/tomcat/apache-tomcat-9.0.87/conf/tomcat-users.xml
-COPY tomcat-users.xml /opt/tomcat/apache-tomcat-9.0.87/conf/
+RUN sudo tee /opt/tomcat/apache-tomcat-9.0.87/conf/tomcat-users.xml <<EOF
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcat-users xmlns="http://tomcat.apache.org/xml"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd"
+              version="1.0">
+  <role rolename="probeuser" />
+  <role rolename="poweruser" />
+  <role rolename="poweruserplus" />
+  <role rolename="manager" />
+  <role rolename="manager-gui"/>
+  <role rolename="manager-script"/>
+  <role rolename="manager-jmx"/>
+  <role rolename="manager-status"/>
+  <role rolename="admin-gui"/>
+  <role rolename="admin-script"/>
+   <user username="tomcat" password="lokesh" roles="manager-gui,manager-script,manager-jmx,manager-status,admin-gui,admin-script"/>
+</tomcat-users>
+EOF
 COPY target/webapp-resume.war /opt/tomcat/apache-tomcat-9.0.87/webapps/
 COPY tomcat-users.xml /usr/local/tomcat/conf/
 RUN sed -i '/<Valve className="org.apache.catalina.valves.RemoteAddrValve"/s/^/<!-- /' /opt/tomcat/apache-tomcat-9.0.87/webapps/manager/META-INF/context.xml && \
