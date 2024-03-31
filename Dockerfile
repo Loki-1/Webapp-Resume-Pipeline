@@ -51,8 +51,7 @@ EOF
 COPY target/webapp-resume.war /opt/tomcat/apache-tomcat-9.0.87/webapps/
 RUN tee /opt/tomcat/apache-tomcat-9.0.87/conf/context.xml <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
-<Context privileged="true" antiResourceLocking="false" 
-         docBase="${catalina.home}/webapps/manager">
+<Context>
     <Valve className="org.apache.catalina.valves.RemoteAddrValve"
            allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
 </Context>
