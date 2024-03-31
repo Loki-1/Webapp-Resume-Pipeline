@@ -28,6 +28,7 @@ RUN yum -y install java
 RUN java -version
 RUN chmod u+x apache-tomcat-9.0.87/bin/*.sh
 RUN rm /opt/tomcat/apache-tomcat-9.0.87/conf/tomcat-users.xml
+RUN rm /opt/tomcat/apache-tomcat-9.0.87/conf/context.xml
 RUN tee /opt/tomcat/apache-tomcat-9.0.87/conf/tomcat-users.xml <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <tomcat-users xmlns="http://tomcat.apache.org/xml"
@@ -48,8 +49,14 @@ RUN tee /opt/tomcat/apache-tomcat-9.0.87/conf/tomcat-users.xml <<EOF
 </tomcat-users>
 EOF
 COPY target/webapp-resume.war /opt/tomcat/apache-tomcat-9.0.87/webapps/
-RUN sed -i '/<Valve className="org.apache.catalina.valves.RemoteAddrValve"/s/^/<!-- /' /opt/tomcat/apache-tomcat-9.0.87/webapps/manager/META-INF/context.xml && \
-    sed -i '/allow="127\\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1"/s/$/ -->/' /opt/tomcat/apache-tomcat-9.0.87/webapps/manager/META-INF/context.xml
+RUN tee /opt/tomcat/apache-tomcat-9.0.87/conf/context.xml <<EOF
+<?xml version="1.0" encoding="UTF-8"?>
+<Context privileged="true" antiResourceLocking="false" 
+         docBase="${catalina.home}/webapps/manager">
+    <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+           allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
+</Context>
+EOF
 RUN /opt/tomcat/apache-tomcat-9.0.87/bin/shutdown.sh && sleep 5 && /opt/tomcat/apache-tomcat-9.0.87/bin/startup.sh
 CMD ["/opt/tomcat/apache-tomcat-9.0.87/bin/catalina.sh", "run"]
 ExPOSE 9093
