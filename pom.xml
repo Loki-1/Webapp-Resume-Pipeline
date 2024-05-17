@@ -114,6 +114,12 @@
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
 				</configuration>
+				<configuration>
+                                 <container>
+                                 <containerId>tomcat8x</containerId>
+                                 <type>remote</type>
+                                 </container>
+                                <configuration>
 			</plugin>
 
 			<plugin>
