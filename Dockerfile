@@ -1,6 +1,7 @@
 # Use the official Tomcat image as the base image
-FROM tomcat:latest
+FROM tomcat:8.0-alpine
 
+CMD [“catalina.sh”, “run”]
 # Remove the default ROOT webapp
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 
@@ -8,5 +9,5 @@ RUN rm -rf /usr/local/tomcat/webapps/ROOT
 COPY target/webapp-resume.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose port 8080 (the default port for Tomcat)
-EXPOSE 9093
+EXPOSE 8081
 
