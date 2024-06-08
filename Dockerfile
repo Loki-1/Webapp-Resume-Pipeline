@@ -27,5 +27,6 @@ RUN yum install vim -y
 RUN java -version
 WORKDIR /opt/Tomcat/webapps
 COPY target/webapp-resume.war /opt/Tomcat/webapps/
+COPY tomcat-users.xml /opt/Tomcat/conf/
 EXPOSE 9093
 CMD ["/opt/Tomcat/bin/catalina.sh", "run"]
