@@ -10,7 +10,7 @@ background-size:100% 100%;
 }
 </style> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Lokesh-Nagam-Profile</title>
+<title>Lokesh-Naagam-Profile</title>
 <link href="images/LN logo.jpg" rel="icon">
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,33 +48,27 @@ h1 {
 <body>
 <hr>
 <section>
-    <h1>Welcome to My DevOps Journey!</h1>
-    <p>Hello, I'm Lokesh Nagam, a passionate DevOps professional. This webpage serves as a showcase of my skills and experiences in the world of DevOps.</p>
-    <p>As part of a hands-on DevOps project, I'm not only creating this webpage but also incorporating my resume to provide a comprehensive view of my capabilities.</p>
-</section>
+    <h1>Embark on My DevOps Expedition!</h1>
+    <p>Greetings, I'm Lokesh Nagam, a fervent DevOps enthusiast. This platform is a testament to my proficiency and adventures in the realm of DevOps.
 
-<!-- Resume Section -->
-<section>
-    <h2>About Me</h2>
-    <p>With a strong background in DevOps practices, I thrive on solving complex challenges and contributing to the success of projects through the effective application of DevOps principles.</p>
-    <p>This webpage is a reflection of my commitment to showcasing my expertise and sharing my journey in the exciting field of DevOps.</p>
+In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpage but also seamlessly integrating my resume, offering a holistic insight into my capabilities.</p>
 </section>
-
 <!-- Contact Information Section -->
 <section>
     <h2>Contact Information</h2>
-    <p>Feel free to reach out and connect! I'd love to discuss DevOps, technology, and everything in between.</p>
+    <p>If you're interested in discussing DevOps, technology, or any related topics, feel free to reach out:</p>
     <p><b>Email:</b> lokesh.naagam@gmail.com</p>
     <p><b>Phone_NUM:</b> +91 9493079164</p>
+    <p>I'm always open to engaging conversations and sharing insights!</p>
 </section>
 <hr>
 <br>
-<h2> "Explore my online presence by clicking on the buttons below to visit my various profiles. Dive into a world of connections and discover more about who I am. Let the journey begin!" </h2>
-<a href="https://github.com/Loki-1" target="_blank" rel="noopener noreferrer">
-    <button class="github-button">Visit My GitHub Profile</button>
-</a>
+<h2> "Explore my online presence by clicking on the buttons below. Dive into a world of connections and discover more about who I am. Let the journey begin!" </h2>
 <a href="https://www.linkedin.com/in/lokesh-naagam/" target="_blank" rel="noopener noreferrer">
     <button class="github-button">Visit My Linked_in Profile</button>
+</a>
+<a href="https://github.com/Loki-1" target="_blank" rel="noopener noreferrer">
+    <button class="github-button">Visit My GitHub Profile</button>
 </a>
 <a href="https://hub.docker.com/u/lokeshnagam121" target="_blank" rel="noopener noreferrer">
     <button class="github-button">Visit My Dockerhub Profile</button>
@@ -145,6 +139,8 @@ h1 {
             <div class="resume">
                 <div class="header">
                     <div class="name">Lokesh Naagam</div>
+                </div>
+                <div class="section">
                     <hr>
                     <div class="section-title">Contact Information:</div>
                     <div class="contact"><b>Email:</b> lokesh.naagam@email.com | <b>Phone:</b> (+91)9493079164 | <b>LinkinedIn :</b> linkedin.com/in/lokesh-naagam
@@ -153,7 +149,7 @@ h1 {
                 <div class="section">
                     <hr>
                     <div class="section-title">Summary :</div>
-                    <div class="section-content">Software Professional with approx 2 years of experience in DevOps Environment & Cloud AWS (Amazon Web Services). Having Hands-on experience in GIT (Distributed Version Control tool), Ansible (Configuration Management Tools), Terraform (Infrastructure as a code), Docker (Container Based Tool), Jenkins (Continuous Integration Tool), Maven (Build Tool), SonarQube (Code Quality Checking), Cloud Watch (Monitoring Tool), and Kubernetes (Container Orchestration Tool).</div>
+                    <div class="section-content"> Around 3 years of experience, I have demonstrated expertise in successfully leading the implementation and maintenance of DevOps pipelines, utilizing Jenkins for continuous integration and continuous deployment(CI/CD) processes.</div>
                 </div>
                 <div class="section">
                     <hr>
@@ -180,8 +176,25 @@ h1 {
                     </div>
                 </div>
                     <hr>
-                    <p> <b>Github Details :</b> <a href="https://github.com/Loki-1"> My Github Link </a></p>
-
+                   <div class="section-title">Summary of Experience:</div>
+<div class="section-content">
+    <ul>
+        <li>Around 3 years of experience in leading DevOps pipelines using Jenkins for CI/CD processes.</li>
+        <li>Managed LLC environments (DEV, QA, QP, PROD) and designed instance strategies for smooth operations.</li>
+        <li>Utilized Jenkins to automate build, test, and deployment phases.</li>
+        <li>Collaborated with Spinnaker for efficient deployment on Kubernetes clusters.</li>
+        <li>Automated server configuration and application deployment using Ansible.</li>
+        <li>Proficient in Docker for containerization and management of container images.</li>
+        <li>Set up dashboards with Prometheus and Grafana for monitoring Kubernetes clusters.</li>
+        <li>Experienced in Jira for issue tracking and Confluence for documentation.</li>
+        <li>Specialized in Google Cloud Platform (GCP) and Kubernetes Engine (GKE) for cloud operations.</li>
+        <li>Implemented Pub/Sub messaging system within GKE environments.</li>
+        <li>Managed Kubernetes workloads efficiently for application management.</li>
+        <li>Proficient in Git and Bitbucket for version control and code management.</li>
+        <li>Mastered Linux OS for app deployment, maintenance, and task automation.</li>
+        <li>Utilized SonarQube for code quality assessment and maintaining high standards.</li>
+    </ul>
+</div>
                     <hr>
                     <div class="section-title">Skills</div>
                     <div class="section-content">
@@ -202,17 +215,50 @@ h1 {
          
 <br>
 <hr>
-<div class="section-title">Roles & Responsibilities :</div>
-                    <div class="section-content">
-                    <ul>
-                        <li>Hands-on experience on Linux system administration.</li>
-                        <li>Version management and source code management with Git and Git cloud repositories. </li>
-                        <li>Configuration management, application deployment with Ansible. </li>
-                        <li>Strive for continuous improvement and build continuous integration, continuous development, and constant deployment pipeline (CI/CD Pipeline) </li>
-                        <li>Deployment in Docker hosts, container management and application scaling with Kubernetes. </li>
-                        <li>Web application testing(Code coverage) with SonarQube. </li>
-                    </ul>
-                    </div>
+<div class="section-title">Technical Skills:</div>
+<div class="section-content">
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Tools and Technologies</th>
+        </tr>
+        <tr>
+            <td>Cloud Technologies</td>
+            <td>Google Cloud Platform (GCP), Amazon Web Services (AWS)</td>
+        </tr>
+        <tr>
+            <td>Tools/Software</td>
+            <td>Jenkins, Docker, Kubernetes, Ansible, Maven, SonarQube, Terraform, Nexus, Docker Hub, Jira, Confluence, ServiceNow</td>
+        </tr>
+        <tr>
+            <td>Source Code Management</td>
+            <td>Git, GitHub, Bitbucket</td>
+        </tr>
+        <tr>
+            <td>Databases</td>
+            <td>MySQL, PostgreSQL</td>
+        </tr>
+        <tr>
+            <td>App/Web Server</td>
+            <td>Apache Tomcat 7.0.14/9</td>
+        </tr>
+        <tr>
+            <td>Operating Systems</td>
+            <td>UNIX, Linux, Windows</td>
+        </tr>
+        <tr>
+            <td>Methodologies</td>
+            <td>Agile Methodology, Scrum, Waterfall</td>
+        </tr>
+    </table>
+</div>
+<div class="section-title">Certification:</div>
+<div class="section-content">
+    <ul>
+        <li>Associate Cloud Engineer - Google Cloud - May 20, 2024</li>
+        <li>AWS Certified DevOps Engineer - Professional - Udemy, 2022</li>
+    </ul>
+</div>
 <hr>
  <div class="section-title">My personal Projects :</div>
                     <div class="section-content">
