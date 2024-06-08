@@ -260,53 +260,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
             </div>
          
 <br>
-<hr>
-<div class="section-title">Technical Skills:</div>
-<div class="section-content">
-    <table border="1" cellspacing="0" cellpadding="5">
-        <tr>
-            <th>Category</th>
-            <th>Tools and Technologies</th>
-        </tr>
-        <tr>
-            <td>Cloud Technologies</td>
-            <td>Google Cloud Platform (GCP), Amazon Web Services (AWS)</td>
-        </tr>
-        <tr>
-            <td>Tools/Software</td>
-            <td>Jenkins, Docker, Kubernetes, Ansible, Maven, SonarQube, Terraform, Nexus, Docker Hub, Jira, Confluence, ServiceNow</td>
-        </tr>
-        <tr>
-            <td>Source Code Management</td>
-            <td>Git, GitHub, Bitbucket</td>
-        </tr>
-        <tr>
-            <td>Databases</td>
-            <td>MySQL, PostgreSQL</td>
-        </tr>
-        <tr>
-            <td>App/Web Server</td>
-            <td>Apache Tomcat 7.0.14/9</td>
-        </tr>
-        <tr>
-            <td>Operating Systems</td>
-            <td>UNIX, Linux, Windows</td>
-        </tr>
-        <tr>
-            <td>Methodologies</td>
-            <td>Agile Methodology, Scrum, Waterfall</td>
-        </tr>
-    </table>
-</div>
-<hr>
-<div class="section-title">Certification:</div>
-<div class="section-content">
-    <ul>
-        <li>Associate Cloud Engineer - Google Cloud - May 20, 2024</li>
-        <li>AWS Certified DevOps Engineer - Professional - Udemy, 2022</li>
-    </ul>
-</div>
-<hr>
+
  <div class="section-title">My personal Projects :</div>
                     <div class="section-content">
                     <ul>
