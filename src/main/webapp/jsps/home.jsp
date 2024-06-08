@@ -153,18 +153,6 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
                 </div>
                 <div class="section">
                     <hr>
-                    <div class="section-title">Education :</div>
-                    <div class="section-content">
-                        <div class="education-item">
-                            <div class="date">Aug, 2020</div>
-                            <div class="school">Aditya Group of Educational Institution</div>
-                            <div class="degree">Bachelor of Science in Computer Science<b>(B.Sc)</b> with an agreegate of <b>91 %</b></div>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="section">
-                    <hr>
                     <div class="section-title">Work Experience :</div>
                     <div class="section-content">
                         <div class="experience-item">
@@ -233,6 +221,17 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
         </tr>
     </table>
 </div>
+<div class="section">
+                    <hr>
+                    <div class="section-title">Education :</div>
+                    <div class="section-content">
+                        <div class="education-item">
+                            <div class="date">Aug, 2020</div>
+                            <div class="school">Aditya Group of Educational Institution</div>
+                            <div class="degree">Bachelor of Science in Computer Science<b>(B.Sc)</b> with an agreegate of <b>91 %</b></div>
+                        </div>
+                    </div>
+                </div>
 <hr>
 <div class="section-title">Certification:</div>
 <div class="section-content">
@@ -241,24 +240,6 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
         <li>AWS Certified DevOps Engineer - Professional - Udemy, 2022</li>
     </ul>
 </div>
-<hr>
-                    <div class="section-title">Skills</div>
-                    <div class="section-content">
-                        <span class="skill">AWS Cloud  <a href="https://www.udemy.com/certificate/UC-f3419d01-7efd-419d-8219-44b22ca4dcef/">(AWS)</a> </span> 
-                        <span class="skill">Linux <a href="https://tcsglobal.udemy.com/certificate/UC-c2537e83-ec93-4d73-ab8a-e9bb5e587b58/">(Linux)</a> </span> 
-                        <span class="skill">DevOps <a href="https://www.udemy.com/certificate/UC-7919d897-7ff7-4458-a6eb-b02a83b47b01/">(DevOps)</a> </span>
-                        <span class="skill">git <a href="https://tcsglobal.udemy.com/certificate/UC-1266e190-0d7c-42ba-a3b3-4304ca350d30/">(git)</a> </span>
-                        <span class="skill">Jenkins <a href="https://www.udemy.com/certificate/UC-cea6878e-d7a0-4487-9d24-25f23dd9b6dd/">(Jenkins)</a> </span>
-                        <span class="skill">Jira<a href="https://tcsglobal.udemy.com/certificate/UC-680f523b-5943-41c9-8f7c-ceae3b9f2f45/">(Jira)</a> </span>
-                        <span class="skill">Maven   </span>
-                        <span class="skill">Docker   </span>
-                        <span class="skill">Nexus  </span>
-                        <span class="skill">Kubernetes  </span>
-                        <span class="skill">Ansible  </span>
-                    </div>
-                </div>
-            </div>
-         
 <br>
 
  <div class="section-title">My personal Projects :</div>
