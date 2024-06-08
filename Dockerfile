@@ -27,5 +27,5 @@ RUN yum install vim -y
 RUN java -version
 WORKDIR /opt/Tomcat/webapps
 COPY target/webapp-resume.war /opt/Tomcat/webapps/
-EXPOSE 8081
+EXPOSE 8080
 CMD ["/opt/Tomcat/bin/startup.sh", "run"]
