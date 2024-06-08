@@ -217,7 +217,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
 <hr>
 <div class="section-title">Technical Skills:</div>
 <div class="section-content">
-    <table>
+    <table border="1" cellspacing="0" cellpadding="5">
         <tr>
             <th>Category</th>
             <th>Tools and Technologies</th>
@@ -252,6 +252,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
         </tr>
     </table>
 </div>
+<hr>
 <div class="section-title">Certification:</div>
 <div class="section-content">
     <ul>
