@@ -53,6 +53,7 @@ h1 {
 
 In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpage but also seamlessly integrating my resume, offering a holistic insight into my capabilities.</p>
 </section>
+<hr>
 <!-- Contact Information Section -->
 <section>
     <h2 style="text-align: left;">Contact Information</h2>
@@ -240,7 +241,9 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
         <li>AWS Certified DevOps Engineer - Professional - Udemy, 2022</li>
     </ul>
 </div>
-<br></h1>
+</div>
+</div>
+<br>
 
  <div class="section-title">My personal Projects :</div>
                     <div class="section-content">
@@ -252,7 +255,17 @@ successfully by using Docker container.</li>
                         <li><b>Result:</b> Application deployed successfully and Reduced deployment time by 30%</li>
                         <li><b>Github Link :</b> <a href="https://github.com/Loki-1/microservice_v1_service_registry"> Microservice-Pipeline </a></li>
                     </ul>
-                    </div>                   
+                    </div>  
+ <div class="section-content">
+                    <ul>
+                        <li><b>Project name :</b>Webapp with own job RESUME</li>
+                        <li><b>Description :</b> Implemented CI/CD pipelines using Jenkins for Microservices architecture and deployed
+successfully by using Docker container.</li>
+                        <li><b>Technologies used :</b> AWS, GitHub, Maven, Jenkins, Docker , Sonarqube, Nexus, Kubernetes, tomcat</li>
+                        <li><b>Result:</b> Application deployed successfully and Reduced deployment time by 30%</li>
+                        <li><b>Github Link :</b> <a href="https://github.com/Loki-1/microservice_v1_service_registry"> Microservice-Pipeline </a></li>
+                    </ul>
+                    </div>  
 
 <hr>
 <div style="text-align: center;">
