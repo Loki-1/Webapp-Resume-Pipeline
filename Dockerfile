@@ -16,9 +16,9 @@ FROM centos
 MAINTAINER Loki-1
 RUN mkdir /opt/Tomcat
 WORKDIR /opt/Tomcat
-RUN curl -O https://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.69/bin/apache-tomcat-8.5.69.tar.gz
+RUN curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.89/bin/apache-tomcat-9.0.89.tar.gz
 RUN tar -xvzf apache*.tar.gz
-RUN mv apache-tomcat-8.5.69/* /opt/Tomcat
+RUN mv apache-tomcat-9.0.89/* /opt/Tomcat
 RUN yum install -y java
 RUN yum install wget -y
 RUN yum install vim -y
