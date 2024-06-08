@@ -27,6 +27,6 @@ RUN yum install vim -y
 RUN java -version
 WORKDIR /opt/Tomcat/webapps
 COPY target/webapp-resume.war /opt/Tomcat/webapps/
-RUN curl -o /opt/Tomcat/conf/tomcat-users.xml https://raw.githubusercontent.com/Loki-1/Webapp-Resume-Pipeline/tomcat-users.xml
+RUN curl -o /opt/Tomcat/conf/tomcat-users.xml https://raw.githubusercontent.com/Loki-1/Webapp-Resume-Pipeline/main/tomcat-users.xml
 EXPOSE 9093
 CMD ["/opt/Tomcat/bin/catalina.sh", "run"]
