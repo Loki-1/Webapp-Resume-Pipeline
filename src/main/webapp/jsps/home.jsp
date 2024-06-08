@@ -55,7 +55,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
 </section>
 <!-- Contact Information Section -->
 <section>
-    <h2>Contact Information</h2>
+    <h2 style="text-align: left;">Contact Information</h2>
     <p>If you're interested in discussing DevOps, technology, or any related topics, feel free to reach out:</p>
     <p><b>Email:</b> lokesh.naagam@gmail.com</p>
     <p><b>Phone_NUM:</b> +91 9493079164</p>
