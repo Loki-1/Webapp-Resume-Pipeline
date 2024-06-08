@@ -244,29 +244,30 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
 </div>
 </div>
 <br>
-
- <div class="section-title">My personal Projects :</div>
-                    <div class="section-content">
-                    <ul>
-                        <li><b>Project name :</b> Microservice registry</li>
-                        <li><b>Description :</b> Implemented CI/CD pipelines using Jenkins for Microservices architecture and deployed
-successfully by using Docker container.</li>
-                        <li><b>Technologies used :</b> AWS, GitHub, Maven, Jenkins, Docker , Sonarqube, Nexus</li>
-                        <li><b>Result:</b> Application deployed successfully and Reduced deployment time by 30%</li>
-                        <li><b>Github Link :</b> <a href="https://github.com/Loki-1/microservice_v1_service_registry"> Microservice-Pipeline </a></li>
-                    </ul>
-                    </div>  
- <div class="section-content">
-                    <ul>
-                        <li><b>Project name :</b>Webapp with own job RESUME</li>
-                        <li><b>Description :</b> Implemented CI/CD pipelines using Jenkins for Microservices architecture and deployed
-successfully by using Docker container.</li>
-                        <li><b>Technologies used :</b> AWS, GitHub, Maven, Jenkins, Docker , Sonarqube, Nexus, Kubernetes, tomcat</li>
-                        <li><b>Result:</b> Application deployed successfully and Reduced deployment time by 30%</li>
-                        <li><b>Github Link :</b> <a href="https://github.com/Loki-1/microservice_v1_service_registry"> Microservice-Pipeline </a></li>
-                    </ul>
-                    </div>  
-
+<hr>
+ <section>
+    <h2>My Personal Projects</h2>
+    <div>
+        <h3>Project 1: Microservice Registry</h3>
+        <p><b>Description:</b> Developed CI/CD pipelines utilizing Jenkins for Microservices architecture and successfully deployed using Docker containers.</p>
+        <p><b>Technologies Used:</b> AWS, GitHub, Maven, Jenkins, Docker, SonarQube, Nexus</p>
+        <p><b>Outcome:</b> Achieved successful application deployment and reduced deployment time by 30%.</p>
+        <p><b>Github Link:</b> <a href="https://github.com/Microservice-Pipeline">Microservice-Pipeline</a></p>
+    </div>
+    <div>
+        <h3>Project 2: WebApp Professional Portfolio Hub</h3>
+        <p><b>Description:</b> Created CI/CD pipelines using Jenkins for a Web application with an embedded job resume, deployed effectively using Docker containers.</p>
+        <p><b>Technologies Used:</b> AWS, GitHub, Maven, Jenkins, Docker, SonarQube, Nexus, Kubernetes, Tomcat</p>
+        <p><b>Outcome:</b> Accomplished successful application deployment and reduced deployment time by 30%.</p>
+        <p><b>Github Link:</b> <a href="https://github.com/Microservice-Pipeline">Microservice-Pipeline</a></p>
+    </div>
+</section>
+<hr>
+<section>
+    <h2 style="text-align: left;">Download Resume</h2>
+    <p>If you would like to download a copy of my resume, you can do so by clicking the link below:</p>
+    <p><a href="https://github.com/Loki-1/Kubernetes/blob/main/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a></p>
+</section>
 <hr>
 <div style="text-align: center;">
         <span>
