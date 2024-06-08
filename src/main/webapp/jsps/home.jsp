@@ -240,7 +240,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
         <li>AWS Certified DevOps Engineer - Professional - Udemy, 2022</li>
     </ul>
 </div>
-<br>
+<br></h1>
 
  <div class="section-title">My personal Projects :</div>
                     <div class="section-content">
