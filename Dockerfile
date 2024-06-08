@@ -28,4 +28,4 @@ RUN java -version
 WORKDIR /opt/Tomcat/webapps
 COPY target/webapp-resume.war /opt/Tomcat/webapps/
 EXPOSE 9093
-CMD ["/opt/Tomcat/bin/startup.sh", "run"]
+CMD ["/opt/Tomcat/bin/catalina.sh", "run"]
