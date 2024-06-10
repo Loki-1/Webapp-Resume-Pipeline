@@ -24,6 +24,20 @@ stage('Building code as a war file')
   sh  "mvn clean package"
   }
   }
+stage('Executing SonarQube Report')
+  {
+  steps
+  {
+  sh  "mvn clean sonar:sonar"
+  }
+  }
+stage('Uploading Artifacts Into Nexus Repo')
+  {
+  steps
+   {
+  sh  "mvn clean deploy"
+   }
+  }
 stage('Image Build for this application') {
             steps {
                 // Build your Docker image
