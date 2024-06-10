@@ -1,1 +1,56 @@
+pipeline{
+agent any
+tools
+{
+maven 'maven_3.6.1'
+}
+environment {
+        // Define environment variables if needed
+        DOCKER_REGISTRY = 'lokeshnagam121'
+        dockerImage = 'lokeshnagam121/webapp'
+        IMAGE_TAG = 'latest'
+        registryCredential ='dockerhub'
+}
+stages
+{
+stage('Code Checkout')
+  {
+        steps{git credentialsId: 'git', url: 'https://github.com/Loki-1/Webapp-Resume-Pipeline.git'}
+  }
+stage('Building code as a war file')
+  {
+  steps
+  {
+  sh  "mvn clean package"
+  }
+  }
+stage('Image Build for this application') {
+            steps {
+                // Build your Docker image
+                script {
+                     // Build your Docker image
+                    sh 'docker build -t lokeshnagam121/webapp .'
+                }
+            }
+        }
+stage('pushing Image into docker-hub') {
+            steps {
+                script {
+                    // Push the Docker image to the registry
+                    docker.withRegistry('', registryCredential) {
+                        docker.image("${dockerImage}:${IMAGE_TAG}").push()
+                    }
+                }
+            }
+        }
+stage('Deploy Application into a container') {
+            steps {
+                script {
+                    // Run the Docker container
+                    docker.image("${dockerImage}:${IMAGE_TAG}").run("-p 9093:8080 --name resume9")
 
+                }
+            }
+        }
+}
+}
