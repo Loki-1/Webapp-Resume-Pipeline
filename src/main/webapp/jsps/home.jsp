@@ -8,6 +8,9 @@ body{
         background-image:url('images/bg.jpg');
 background-size:100% 100%;
 }
+.banner-image {
+    width: 100%; /* Adjust width as per your image size */
+    height: auto; /* Maintain aspect ratio */
 </style> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Lokesh-Naagam-Profile</title>
@@ -44,8 +47,8 @@ h1 {
 
     </style>
 </head>
-
 <body>
+<img src="images/Banner.jpg" alt="Banner Image" class="banner-image">
 <hr>
 <section>
     <h1>Embark on My DevOps Expedition!</h1>
@@ -76,7 +79,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
 </a>
 <hr>
 <br>
-        <h1><h3> Spring Boot Application with MongoDB Database :</h3><br>
+        <h1><h3>Resume:-</h3><br>
             <style>
         body {
             font-family: Arial, sans-serif;
@@ -253,7 +256,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
         <p><b>Description:</b> Developed a Spring Boot application integrated with MongoDB to store user details. Implemented CI/CD pipelines using Jenkins for automated build, test, and deployment.</p>
         <p><b>Technologies Used:</b> AWS, GitHub, Maven, Jenkins, Docker, SonarQube, Nexus, Spring Boot, MongoDB</p>
         <p><b>Outcome:</b> Achieved efficient application deployment and data storage capabilities using MongoDB.</p>
-        <p><b>Github Link:</b> <a href="https://github.com/Microservice-Pipeline">Spring Boot Application with MongoDB</a></p>
+        <p><b>Github Link:</b> <a href="https://github.com/Loki-1/SpringBootApp">Spring Boot Application with MongoDB</a></p>
     </div>
     <br>
     <div>
@@ -261,7 +264,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
         <p><b>Description:</b> Created CI/CD pipelines using Jenkins for a Web application with an embedded job resume, deployed effectively using Docker containers.</p>
         <p><b>Technologies Used:</b> AWS, GitHub, Maven, Jenkins, Docker, SonarQube, Nexus, Kubernetes, Tomcat</p>
         <p><b>Outcome:</b> Accomplished successful application deployment and reduced deployment time by 30%.</p>
-        <p><b>Github Link:</b> <a href="https://github.com/Microservice-Pipeline">WebApp Professional Portfolio Hub</a></p>
+        <p><b>Github Link:</b> <a href="https://github.com/Loki-1/Webapp-Resume-Pipeline/">WebApp Professional Portfolio Hub</a></p>
     </div>
 </section>
 <hr>
