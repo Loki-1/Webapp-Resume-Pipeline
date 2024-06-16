@@ -14,6 +14,7 @@ background-size:100% 100%;
 .logo-area {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 20px; /* Adjust margin as needed */
 }
 
@@ -24,9 +25,12 @@ background-size:100% 100%;
 }
 
 .contact-info {
-    flex: 1; /* Take up remaining space */
-    text-align: right;
     font-weight: bold;
+}
+
+.contact-info p {
+    margin: 0; /* Remove default margin */
+}
 </style> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Lokesh-Naagam-Profile</title>
@@ -292,7 +296,9 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
 <hr>
 <!-- Logo and Text Area -->
 <div class="logo-area">
-    <img src="images/logo1.png" alt="Logo" width="100">
+    <div>
+        <img src="images/logo1.jpg" alt="Logo" width="100">
+    </div>
     <div class="contact-info">
         <p>
             <strong>Lokesh Naagam</strong><br>
