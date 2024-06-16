@@ -9,8 +9,8 @@ body{
 background-size:100% 100%;
 }
 .banner-image {
-    width: 100%; /* Adjust width as per your image size */
-    height: 15%; /* Maintain aspect ratio */
+    width: 20%; /* Adjust width as per your image size */
+    height: 20%; /* Maintain aspect ratio */
 .logo-area {
     display: flex;
     align-items: center;
