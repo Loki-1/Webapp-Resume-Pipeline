@@ -9,7 +9,7 @@ body{
 background-size:100% 100%;
 }
 .banner-image {
-    width: 100%; /* Adjust width as per your image size */
+    width: 10%; /* Adjust width as per your image size */
     height: auto; /* Maintain aspect ratio */
 </style> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
