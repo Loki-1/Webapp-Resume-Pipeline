@@ -14,8 +14,6 @@ background-size:100% 100%;
 .logo-area {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
     margin-top: 20px; /* Adjust margin as needed */
 }
 
@@ -24,6 +22,11 @@ background-size:100% 100%;
     height: auto; /* Maintain aspect ratio */
     margin-right: 20px; /* Adjust spacing between logo and text */
 }
+
+.contact-info {
+    flex: 1; /* Take up remaining space */
+    text-align: right;
+    font-weight: bold;
 </style> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Lokesh-Naagam-Profile</title>
