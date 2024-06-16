@@ -33,7 +33,7 @@ pic overview
 **Kubernetes Cluster:** Orchestrates containers.
 
 ***Pods:***
-- * One for the Maven Webapp resume.
+- One for the Maven Webapp resume.
 
 ***Services:***
 - To expose the webapp-resume application internally or externally.
