@@ -76,7 +76,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
 </a>
 <hr>
 <br>
-        <h1><h3> My Resume :</h3><br>
+        <h1><h3> Spring Boot Application with MongoDB Database :</h3><br>
             <style>
         body {
             font-family: Arial, sans-serif;
@@ -227,7 +227,8 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
                     <div class="section-title">Education :</div>
                     <div class="section-content">
                         <div class="education-item">
-                            <div class="date">Aug, 2020</div>
+                            <div class="date">Aug, 
+2020</div>
                             <div class="school">Aditya Group of Educational Institution</div>
                             <div class="degree">Bachelor of Science in Computer Science<b>(B.Sc)</b> with an agreegate of <b>91 %</b></div>
                         </div>
@@ -248,18 +249,19 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
  <section>
     <h2>My Personal Projects</h2>
     <div>
-        <h3>Project 1: Microservice Registry</h3>
-        <p><b>Description:</b> Developed CI/CD pipelines utilizing Jenkins for Microservices architecture and successfully deployed using Docker containers.</p>
-        <p><b>Technologies Used:</b> AWS, GitHub, Maven, Jenkins, Docker, SonarQube, Nexus</p>
-        <p><b>Outcome:</b> Achieved successful application deployment and reduced deployment time by 30%.</p>
-        <p><b>Github Link:</b> <a href="https://github.com/Microservice-Pipeline">Microservice-Pipeline</a></p>
+        <h3>Project 1: Spring Boot Application with MongoDB Database</h3>
+        <p><b>Description:</b> Developed a Spring Boot application integrated with MongoDB to store user details. Implemented CI/CD pipelines using Jenkins for automated build, test, and deployment.</p>
+        <p><b>Technologies Used:</b> AWS, GitHub, Maven, Jenkins, Docker, SonarQube, Nexus, Spring Boot, MongoDB</p>
+        <p><b>Outcome:</b> Achieved efficient application deployment and data storage capabilities using MongoDB.</p>
+        <p><b>Github Link:</b> <a href="https://github.com/Microservice-Pipeline">Spring Boot Application with MongoDB</a></p>
     </div>
+    <br>
     <div>
         <h3>Project 2: WebApp Professional Portfolio Hub</h3>
         <p><b>Description:</b> Created CI/CD pipelines using Jenkins for a Web application with an embedded job resume, deployed effectively using Docker containers.</p>
         <p><b>Technologies Used:</b> AWS, GitHub, Maven, Jenkins, Docker, SonarQube, Nexus, Kubernetes, Tomcat</p>
         <p><b>Outcome:</b> Accomplished successful application deployment and reduced deployment time by 30%.</p>
-        <p><b>Github Link:</b> <a href="https://github.com/Microservice-Pipeline">Microservice-Pipeline</a></p>
+        <p><b>Github Link:</b> <a href="https://github.com/Microservice-Pipeline">WebApp Professional Portfolio Hub</a></p>
     </div>
 </section>
 <hr>
