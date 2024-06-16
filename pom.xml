@@ -15,8 +15,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.21.204.124:9000/</sonar.host.url>
-		<sonar.login>squ_a5eb7db37e56b35610212e904930582c63e90010</sonar.login>
+		<sonar.host.url>http://18.117.131.175:9000/</sonar.host.url>
+		<sonar.login>squ_677929bfe5e2cfd37e55b4605441a810495795d7</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -90,13 +90,13 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Maven-webapp</name>
-	      <url>http://3.21.204.124:8081/repository/Maven-webapp/</url>
+	      <name>webapp-resume</name>
+	      <url>http://13.59.196.168:8081/repository/webapp-resume/</url>
 	    </repository>
 	    
 	  <!--  <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Maven-webapp-snapshot</name>
+	      <name>webapp-resume-snapshot</name>
 	      <url>http://3.138.136.211:9090/repository/Maven-webapp-snapshot/</url>
 	    </snapshotRepository>-->
 	    
