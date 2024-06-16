@@ -46,3 +46,50 @@ Automate deployment of the Java web app as a Docker container, utilizing a Tomca
 
 ## Skills: 
 Tomcat · Sonarqube · Nexus · Maven · Docker · Jenkins · Amazon Web Services (AWS)
+
+
+
+# DevOps Pipeline Documentation
+
+## Overview
+- This project involves creating a web application that showcases my resume, personal projects, and professional details. The application includes links to my GitHub, LinkedIn, Docker Hub profiles, and provides an option to download my resume. The application is built using HTML, CSS, and JavaScript.
+- This Jenkins pipeline automates the build, test, deployment, and monitoring of the Web Application Resume project. It integrates various tools like Maven for build automation, SonarQube for code quality analysis, Nexus for artifact repository management, Docker for containerization, and Kubernetes for orchestration.
+
+pic overview
+
+### Tools Used
+- **Source Code Management:** GitHub
+- **Build Tool:** Maven
+- **Code Quality Analysis:** SonarQube
+- **Artifact Repository:** Nexus
+- **Continuous Integration:** Jenkins
+- **Containerization:** Docker
+- **Container Registry:** DockerHub
+- **Container Orchestration:** Kubernetes
+
+### Application Components
+- **HTML:** Structure of the web application.
+- **CSS:** Styling of the web application.
+- **JavaScript:** Interaction and dynamic features.
+
+### Features
+- **Resume Display:** Showcases detailed resume with contact information, work experience, skills, education, and certifications.
+- **Personal Projects:** Lists personal projects with descriptions and links.
+- **Profile Links:** Provides buttons to visit LinkedIn, GitHub, and Docker Hub profiles.
+- **Download Option:** Allows users to download a copy of the resume in PDF format.
+
+### Deployment Architecture:
+
+**Kubernetes Cluster:** Orchestrates containers.
+
+***Pods:***
+* One for the Maven Webapp resume.
+
+***Services:***
+To expose the webapp-resume application internally or externally.
+         **External url :** [http://localhost:8080/webapp-resume/](http://localhost:8080/webapp-resume/)
+
+
+k8s pic
+
+
