@@ -11,6 +11,19 @@ background-size:100% 100%;
 .banner-image {
     width: 10%; /* Adjust width as per your image size */
     height: auto; /* Maintain aspect ratio */
+.logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.logo-area img {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Adjust spacing between logo and text */
+}
 </style> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Lokesh-Naagam-Profile</title>
@@ -274,18 +287,17 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
     <p><a href="https://github.com/Loki-1/Kubernetes/blob/main/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a></p>
 </section>
 <hr>
-<div style="text-align: center;">
-        <span>
-                <img src="images/logo1.png" alt="" width="100">
-        </span>
-        <span style="font-weight: bold;">
-                Lokesh Naagam, 
-                Working as a DevOps Engineer, TCS, Adibatla Branch,
-                Hyderabad,
-                +91-9493079164
-                <br>
-                <a href="mailto:lokesh.naagam@gmail.com">Mail to Lokesh Naagam</a>
-        </span>
+<!-- Logo and Text Area -->
+<div class="logo-area">
+    <img src="images/logo1.jpg" alt="Logo" width="100">
+    <div class="contact-info">
+        <p>
+            <strong>Lokesh Naagam</strong><br>
+            Working as a DevOps Engineer, TCS, Adibatla Branch, Hyderabad<br>
+            +91-9493079164<br>
+            <a href="mailto:lokesh.naagam@gmail.com">Mail to Lokesh Naagam</a>
+        </p>
+    </div>
 </div>
 <hr>
 </body>
