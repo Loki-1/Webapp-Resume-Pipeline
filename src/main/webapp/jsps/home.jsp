@@ -9,8 +9,8 @@ body{
 background-size:100% 100%;
 }
 .banner-image {
-    width: 10%; /* Adjust width as per your image size */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* Adjust width as per your image size */
+    height: 15%; /* Maintain aspect ratio */
 .logo-area {
     display: flex;
     align-items: center;
@@ -61,10 +61,10 @@ h1 {
     </style>
 </head>
 <body>
-<img src="images/Banner.jpg" alt="Banner Image" class="banner-image">
 <hr>
 <section>
     <h1>Embark on My DevOps Expedition!</h1>
+    <img src="images/Banner.jpg" alt="Banner Image" class="banner-image">
     <p>Greetings, I'm Lokesh Nagam, a fervent DevOps enthusiast. This platform is a testament to my proficiency and adventures in the realm of DevOps.
 
 In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpage but also seamlessly integrating my resume, offering a holistic insight into my capabilities.</p>
@@ -289,7 +289,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
 <hr>
 <!-- Logo and Text Area -->
 <div class="logo-area">
-    <img src="images/logo1.jpg" alt="Logo" width="100">
+    <img src="images/logo1.png" alt="Logo" width="100">
     <div class="contact-info">
         <p>
             <strong>Lokesh Naagam</strong><br>
