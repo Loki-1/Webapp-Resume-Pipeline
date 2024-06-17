@@ -8,13 +8,6 @@ body{
         background-image:url('images/bg.jpg');
 background-size:100% 100%;
 }
-.banner-image {
-    display: block;
-    margin: 0 auto; /* Center the image horizontally */
-    width: 100%; /* Adjust width as per your image size */
-    height: 200px; /* Set a fixed height */
-    object-fit: cover; /* This ensures the image covers the area without stretching */
-}
 .logo-area {
     display: flex;
     align-items: center;
@@ -76,7 +69,6 @@ h1 {
 <hr>
 <section>
     <h1>Embark on My DevOps Expedition!</h1>
-    <img src="images/Banner.jpg" alt="Banner Image" class="banner-image">
     <p>Greetings, I'm Lokesh Nagam, a fervent DevOps enthusiast. This platform is a testament to my proficiency and adventures in the realm of DevOps.
 
 In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpage but also seamlessly integrating my resume, offering a holistic insight into my capabilities.</p>
