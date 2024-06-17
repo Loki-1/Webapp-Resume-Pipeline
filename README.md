@@ -5,7 +5,10 @@
 - In our repository, we've successfully developed a basic Java web app. We can generate a .war package from the code and deploy it on a Tomcat server. Additionally, we've implemented SonarQube to generate detailed code quality reports. To enhance our development process, we can consider organizing the project structure more effectively, using build automation tools like Maven or Gradle, implementing continuous integration with Jenkins . Containerization using Docker and orchestration with Kubernetes can simplify deployment and management.
 - This Jenkins pipeline automates the build, test, deployment, and monitoring of the Web Application Resume project. It integrates various tools like Maven for build automation, SonarQube for code quality analysis, Nexus for artifact repository management, Docker for containerization, and Kubernetes for orchestration.
 
-pic overview
+![image](https://github.com/Loki-1/Webapp-Resume-Pipeline/assets/134843197/d6212022-7388-468f-bc74-dafaa54ef488)
+![image](https://github.com/Loki-1/Webapp-Resume-Pipeline/assets/134843197/3cccac90-df88-43a9-92d3-36691435ecb7)
+![image](https://github.com/Loki-1/Webapp-Resume-Pipeline/assets/134843197/3f7afcba-5af1-405e-aa37-b5fa9879d889)
+
 
 ### Tools Used
 - **Source Code Management:** GitHub
