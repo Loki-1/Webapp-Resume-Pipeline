@@ -19,6 +19,9 @@
 - **Container Registry:** DockerHub
 - **Container Orchestration:** Kubernetes
 
+  ![image](https://github.com/Loki-1/Webapp-Resume-Pipeline/assets/134843197/cb5b2ffe-9a95-4b14-9455-c27bc7bd9bfd)
+
+
 ### Application Components
 - **HTML:** Structure of the web application.
 - **CSS:** Styling of the web application.
@@ -42,7 +45,8 @@
 - **External url :** [http://localhost:8080/webapp-resume/](http://localhost:8080/webapp-resume/)
 
 
-k8s pic
+![image](https://github.com/Loki-1/Webapp-Resume-Pipeline/assets/134843197/a769245a-6359-4b16-8dbe-debe7cf8f76b)
+
 
 ### Development Workflow
 #### Source Code Management:
@@ -54,12 +58,15 @@ Maven is used to build packages (pom.xml manages dependencies and build configur
 #### Code Quality Analysis:
 SonarQube is integrated to analyze code quality and identify issues.
 
-sonar pic
+![image](https://github.com/Loki-1/Webapp-Resume-Pipeline/assets/134843197/571131b9-8b09-4044-9b48-04bfbfc29b20)
+![image](https://github.com/Loki-1/Webapp-Resume-Pipeline/assets/134843197/e1c36b6a-c651-43bc-928d-5f0141d5deba)
+
 
 #### Artifact Repository:
 Nexus serves as the artifact repository for storing Maven packages.
 
-nexus pic
+![image](https://github.com/Loki-1/Webapp-Resume-Pipeline/assets/134843197/e9bf2b37-9126-4687-9bcb-47e5a769bcb8)
+
 
 #### Continuous Integration:
 Jenkins pipeline automates the CI/CD process.
@@ -71,18 +78,22 @@ Docker Build: Build Docker images.
 Docker Push: Push Docker images to Docker Hub.
 Kubernetes Deployment: Deploy to Kubernetes cluster.
 
-pipeline pic
+![image](https://github.com/Loki-1/Webapp-Resume-Pipeline/assets/134843197/678c0ee0-2dc5-4419-b04e-0da9e948a135)
+
 
 #### Containerization:
 Docker is used to containerize the application.
 Dockerfiles define the container images and we store those images on dockerhub.
 
-dockerhub pic
+![image](https://github.com/Loki-1/Webapp-Resume-Pipeline/assets/134843197/9ff4b96c-46d6-4d60-90f1-2738e63666bc)
+
 
 #### Post-build Actions
 Email Notification: Sends an email with build status and links to Jenkins console output.
 
-email pic
+![image](https://github.com/Loki-1/Webapp-Resume-Pipeline/assets/134843197/8e0b7c31-acc2-400c-b8f3-b3011d1172b1)
+When we click on the console output link, we will be redirected to the Jenkins console output page.
+![image](https://github.com/Loki-1/Webapp-Resume-Pipeline/assets/134843197/2c19264a-e50a-4601-9663-c4b3a63c1808)
 
 ### Benefits:
 
