@@ -11,8 +11,9 @@ background-size:100% 100%;
 .banner-image {
     display: block;
     margin: 0 auto; /* Center the image horizontally */
-    width: 70%; /* Adjust width as per your image size */
-    height: 2%; /* Maintain aspect ratio */
+    width: 100%; /* Adjust width as per your image size */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* This ensures the image covers the area without stretching */
 }
 .logo-area {
     display: flex;
