@@ -11,14 +11,15 @@ background-size:100% 100%;
 .banner-image {
     display: block;
     margin: 0 auto; /* Center the image horizontally */
-    width: 30%; /* Adjust width as per your image size */
+    width: 70%; /* Adjust width as per your image size */
     height: 10%; /* Maintain aspect ratio */
 }
 .logo-area {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Center the logo and contact info horizontally */
     margin-top: 20px; /* Adjust margin as needed */
+    text-align: left; /* Align text to the left */
 }
 
 .logo-area img {
