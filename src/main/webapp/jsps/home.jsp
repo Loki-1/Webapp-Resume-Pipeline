@@ -12,7 +12,7 @@ background-size:100% 100%;
     display: block;
     margin: 0 auto; /* Center the image horizontally */
     width: 70%; /* Adjust width as per your image size */
-    height: 10%; /* Maintain aspect ratio */
+    height: 2%; /* Maintain aspect ratio */
 }
 .logo-area {
     display: flex;
@@ -301,7 +301,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
 <!-- Logo and Text Area -->
 <div class="logo-area">
     <div>
-        <img src="images/logo1.jpg" alt="Logo" width="100">
+        <img src="images/logo1.png" alt="Logo" width="100">
     </div>
     <div class="contact-info">
         <p>
