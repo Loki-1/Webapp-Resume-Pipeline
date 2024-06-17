@@ -78,8 +78,8 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
 <section>
     <h2 style="text-align: left;">Contact Information</h2>
     <p>If you're interested in discussing DevOps, technology, or any related topics, feel free to reach out:</p>
-    <p><b>Email:</b> lokesh.naagam@gmail.com</p>
-    <p><b>Phone_NUM:</b> +91 9493079164</p>
+    <p><strong>Email:</strong> lokesh.naagam@gmail.com</p>
+    <p><strong>Phone_NUM:</strong> +91 9493079164</p>
     <p>I'm always open to engaging conversations and sharing insights!</p>
 </section>
 <hr>
@@ -164,7 +164,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
                 <div class="section">
                     <hr>
                     <div class="section-title">Contact Information:</div>
-                    <div class="contact"><b>Email:</b> lokesh.naagam@email.com | <b>Phone:</b> (+91)9493079164 | <b>LinkinedIn :</b> linkedin.com/in/lokesh-naagam
+                    <div class="contact"><strong>Email:</b> lokesh.naagam@email.com | <strong>Phone:</b> (+91)9493079164 | <strong>LinkinedIn :</b> linkedin.com/in/lokesh-naagam
                     </div>
                 </div>
                 <div class="section">
@@ -179,7 +179,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
                         <div class="experience-item">
                             <div class="date">Aug 2020 - Present</div>
                             <div class="job-title">DevOps Engineer</div>
-                            <div class="company">Tata Consultancy Services<b>(TCS)</b> <a href="https://www.tcs.com/">Company URL</a></div>
+                            <div class="company">Tata Consultancy Services<strong>(TCS)</b> <a href="https://www.tcs.com/">Company URL</a></div>
                         </div> 
                     
                     </div>
@@ -250,7 +250,7 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
                             <div class="date">Aug, 
 2020</div>
                             <div class="school">Aditya Group of Educational Institution</div>
-                            <div class="degree">Bachelor of Science in Computer Science<b>(B.Sc)</b> with an agreegate of <b>91 %</b></div>
+                            <div class="degree">Bachelor of Science in Computer Science<strong>(B.Sc)</b> with an agreegate of <strong>91 %</b></div>
                         </div>
                     </div>
                 </div>
@@ -270,18 +270,18 @@ In the pursuit of a practical DevOps endeavor, I'm not just crafting this webpag
     <h2>My Personal Projects</h2>
     <div>
         <h3>Project 1: Spring Boot Application with MongoDB Database</h3>
-        <p><b>Description:</b> Developed a Spring Boot application integrated with MongoDB to store user details. Implemented CI/CD pipelines using Jenkins for automated build, test, and deployment.</p>
-        <p><b>Technologies Used:</b> AWS, GitHub, Maven, Jenkins, Docker, SonarQube, Nexus, Spring Boot, MongoDB</p>
-        <p><b>Outcome:</b> Achieved efficient application deployment and data storage capabilities using MongoDB.</p>
-        <p><b>Github Link:</b> <a href="https://github.com/Loki-1/SpringBootApp">Spring Boot Application with MongoDB</a></p>
+        <p><strong>Description:</b> Developed a Spring Boot application integrated with MongoDB to store user details. Implemented CI/CD pipelines using Jenkins for automated build, test, and deployment.</p>
+        <p><strong>Technologies Used:</b> AWS, GitHub, Maven, Jenkins, Docker, SonarQube, Nexus, Spring Boot, MongoDB</p>
+        <p><strong>Outcome:</b> Achieved efficient application deployment and data storage capabilities using MongoDB.</p>
+        <p><strong>Github Link:</b> <a href="https://github.com/Loki-1/SpringBootApp">Spring Boot Application with MongoDB</a></p>
     </div>
     <br>
     <div>
         <h3>Project 2: WebApp Professional Portfolio Hub</h3>
-        <p><b>Description:</b> Created CI/CD pipelines using Jenkins for a Web application with an embedded job resume, deployed effectively using Docker containers.</p>
-        <p><b>Technologies Used:</b> AWS, GitHub, Maven, Jenkins, Docker, SonarQube, Nexus, Kubernetes, Tomcat</p>
-        <p><b>Outcome:</b> Accomplished successful application deployment and reduced deployment time by 30%.</p>
-        <p><b>Github Link:</b> <a href="https://github.com/Loki-1/Webapp-Resume-Pipeline/">WebApp Professional Portfolio Hub</a></p>
+        <p><strong>Description:</b> Created CI/CD pipelines using Jenkins for a Web application with an embedded job resume, deployed effectively using Docker containers.</p>
+        <p><strong>Technologies Used:</b> AWS, GitHub, Maven, Jenkins, Docker, SonarQube, Nexus, Kubernetes, Tomcat</p>
+        <p><strong>Outcome:</b> Accomplished successful application deployment and reduced deployment time by 30%.</p>
+        <p><strong>Github Link:</b> <a href="https://github.com/Loki-1/Webapp-Resume-Pipeline/">WebApp Professional Portfolio Hub</a></p>
     </div>
 </section>
 <hr>
